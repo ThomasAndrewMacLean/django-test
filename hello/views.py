@@ -8,4 +8,4 @@ def myView(request):
 
 
 def homePage(request):
-    return HttpResponse('Home Pageeeee')
+    return render(request, 'home/index.html')
