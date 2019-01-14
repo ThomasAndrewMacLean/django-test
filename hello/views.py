@@ -5,7 +5,7 @@ from .models import Posts
 # Create your views here.
 
 def myView(request):
-    return HttpResponse('Hello World!')
+    return HttpResponse('Ann Verdonck, I love you!')
 
 
 def homePage(request):
